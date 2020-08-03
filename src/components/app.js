@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+import Scoreboard from "./Scoreboard";
+
+class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Redux Router</h2>
+        <Scoreboard />
       </div>
     );
   }
 }
+
+export default App;
